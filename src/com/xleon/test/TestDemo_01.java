@@ -6,6 +6,8 @@ import org.junit.Test;
 
 import com.xleon.demo.log4jdemo.Demo_01;
 
+
+//junit demo
 public class TestDemo_01 {
 	@Test
 	public void testAdd() {
