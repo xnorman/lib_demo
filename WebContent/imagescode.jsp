@@ -7,14 +7,14 @@
     <script type="text/javascript" language="javascript">
   function changeImg(){
    var a=document.getElementById("mySpan");
-   a.innerHTML='<img align="middle" src="ImageServlet"/>  <a href="#" onclick="changeImg();">看不清</a>'; //会复盖“mySpan”位置
+   a.innerHTML='<img align="middle" src="PicCodeDemo"/>  <a href="#" onclick="changeImg();">看不清</a>'; //会复盖“mySpan”位置
   }
 </script> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>图片验证码</title>
 </head>
 <body>
-  <span id="mySpan"><img align="middle" src="ImageServlet" /><a
+  <span id="mySpan"><img align="middle" src="PicCodeDemo" /><a
    href="#" onclick="changeImg();">看不清</a> </span> 
 </body>
 </html>
