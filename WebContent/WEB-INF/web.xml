@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description>PicCodeDemo</description>
+    <display-name>PicCodeDemo</display-name>
+    <servlet-name>PicCodeDemo</servlet-name>
+    <servlet-class>com.xleon.demo.piccode.PicCodeDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PicCodeDemo</servlet-name>
+    <url-pattern>/PicCodeDemo</url-pattern>
+  </servlet-mapping>
 </web-app>
