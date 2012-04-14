@@ -19,4 +19,14 @@
     <servlet-name>PicCodeDemo</servlet-name>
     <url-pattern>/PicCodeDemo</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ImageCode</display-name>
+    <servlet-name>ImageCode</servlet-name>
+    <servlet-class>com.xleon.demo.piccode.ImageCode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageCode</servlet-name>
+    <url-pattern>/ImageCode</url-pattern>
+  </servlet-mapping>
 </web-app>
