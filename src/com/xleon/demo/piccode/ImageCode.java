@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 public class ImageCode extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-    private static final String CONTENT_TYPE = "text/html; charset=gb2312";  
+    private static final String CONTENT_TYPE = "text/html; charset=utf8";  
     //设置字母的大小,大小  
     private Font mFont = new Font("Times New Roman", Font.PLAIN, 17); 
     //取得随机颜色
@@ -37,6 +37,7 @@ public class ImageCode extends HttpServlet {
     
     public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException  
     {  
+    	//清除图片缓存
         response.setHeader("Pragma","No-cache");  
         response.setHeader("Cache-Control","no-cache");  
         response.setDateHeader("Expires", 0);  
