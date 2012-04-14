@@ -29,4 +29,14 @@
     <servlet-name>ImageCode</servlet-name>
     <url-pattern>/ImageCode</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HostInfo</display-name>
+    <servlet-name>HostInfo</servlet-name>
+    <servlet-class>com.xleon.demo.ipseek.HostInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HostInfo</servlet-name>
+    <url-pattern>/HostInfo</url-pattern>
+  </servlet-mapping>
 </web-app>
