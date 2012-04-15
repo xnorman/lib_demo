@@ -5,24 +5,17 @@
 <html>
 <head>
 <script type="text/javascript" language="javascript">
-  function changeImg(){
-   var a=document.getElementById("mySpan");
-   a.innerHTML='<img align="middle" src="PicCodeDemo"/>  <a href="#" onclick="changeImg();">看不清</a>'; //会复盖“mySpan”位置
-  }
-  
-  function changeImg2(){
-	   var b=document.getElementById("mySpan2");
-	   b.innerHTML='<img align="middle" src="ImageCode"/>  <a href="#" onclick="changeImg2();">看不清</a>'; //会复盖“mySpan”位置
+  function changeImg(url){
+	   var a = document.getElementById("codeimage");
+	   a.src = url + Math.random();
   }
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>图片验证码</title>
 </head>
 <body>
-	<span id="mySpan"><img align="middle" src="PicCodeDemo" /><a
-		href="#" onclick="changeImg();">看不清</a> </span>
-	<span id="mySpan2"><img align="middle" src="ImageCode" /><a
-		href="#" onclick="changeImg2();">看不清</a> </span>
-
+	<span id="mySpan"><img id="codeimage" align="middle" src="PicCodeDemo" /><a
+		href="javascript:changeImg('PicCodeDemo?t=');">看不清</a> </span>
+	<a href="HostInfo">访问统计</a>
 </body>
 </html>
