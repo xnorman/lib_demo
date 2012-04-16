@@ -26,6 +26,7 @@ public class IPSeeker {
             return ret;
         }
     }
+    //为保证正常运行，需要将qqwry.dat拷贝到当前包路径下。为方便代码备份，并未保存该文件。
     private static final String IP_FILE = IPSeeker.class.getResource("/com/xleon/demo/ipseek/qqwry.dat").toString().substring(5);
     // 一些固定常量，比如记录长度等等
     private static final int IP_RECORD_LENGTH = 7;
