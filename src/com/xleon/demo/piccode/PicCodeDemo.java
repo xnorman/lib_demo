@@ -25,7 +25,6 @@ public class PicCodeDemo extends HttpServlet {
 	 */
 	public PicCodeDemo() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	// 验证码图片的宽度。
