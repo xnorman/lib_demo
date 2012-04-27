@@ -39,4 +39,14 @@
     <servlet-name>HostInfo</servlet-name>
     <url-pattern>/HostInfo</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SimpleDemo</display-name>
+    <servlet-name>SimpleDemo</servlet-name>
+    <servlet-class>com.xleon.demo.ajax.SimpleDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleDemo</servlet-name>
+    <url-pattern>/simpledemo</url-pattern>
+  </servlet-mapping>
 </web-app>
