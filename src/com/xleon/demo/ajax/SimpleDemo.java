@@ -43,7 +43,7 @@ public class SimpleDemo extends HttpServlet {
         if(username.length()<=0)flag++;
         
         for (String string : userlist) {
-			if(string.toLowerCase().trim().equals(username))flag++;
+			if(null!=username && string.toLowerCase().trim().equals(username.toLowerCase().trim()))flag++;
 		}
         
         System.out.println("username:"+username);

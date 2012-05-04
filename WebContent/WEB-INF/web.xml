@@ -9,6 +9,18 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <error-page>
+	<error-code>403</error-code>
+	<location>/403.jsp</location>
+	</error-page>
+	<error-page>
+	<error-code>404</error-code>
+	<location>/404.jsp</location>
+	</error-page>
+	<error-page>
+	<error-code>500</error-code>
+	<location>/500.jsp</location>
+  </error-page> 
   <servlet>
     <description>PicCodeDemo</description>
     <display-name>PicCodeDemo</display-name>
@@ -48,5 +60,15 @@
   <servlet-mapping>
     <servlet-name>SimpleDemo</servlet-name>
     <url-pattern>/simpledemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AjaxDemo</display-name>
+    <servlet-name>AjaxDemo</servlet-name>
+    <servlet-class>com.xleon.demo.ajax.AjaxDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjaxDemo</servlet-name>
+    <url-pattern>/ajaxdemo</url-pattern>
   </servlet-mapping>
 </web-app>

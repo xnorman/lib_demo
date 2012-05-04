@@ -16,5 +16,6 @@
 	<classpathentry kind="lib" path="mylib/junit-4.10.jar"/>
 	<classpathentry kind="lib" path="mylib/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="mylib/sqlitejdbc-v056.jar"/>
+	<classpathentry kind="lib" path="mylib/jackson-all-1.9.6.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
